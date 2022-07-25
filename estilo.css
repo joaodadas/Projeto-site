@@ -1,20 +1,40 @@
-/*
-*{
+/* Estrutura do site
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
     border: 1px solid red;
 }
 
-h1 {
-    color: green;
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(imagens/logo.png)no-repeat center;
+    text-indent: -3000px;
 }
 
-p.verde {
-    color: green;
+/*Barra de navegação
+*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-li>a {
-    color: red;
-    text-decoration: none;
-}*/
-div a {
-    color: green;
-}
+
